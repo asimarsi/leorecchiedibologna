@@ -1,0 +1,213 @@
+#logo{
+    height: 130px;
+    width: auto;
+    float: left;
+}
+body{
+    margin: 0px !important; 
+    padding: 0px !important;
+    background-color: #F2C0A2;
+    font-family: 'Noto Sans', sans-serif;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: #442414;
+    padding-left: 10px;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+}
+header{
+    padding: 10px;
+    background-color: white;
+}
+
+#home1{
+    padding: 30px;
+}
+#home3{
+    background-color: #F2C0A2;
+}
+.fa-solid{
+    padding: 30px;
+}
+.textcenter{
+    text-align: center;
+}
+
+#homepage3{
+    height: 200px;
+    width: auto;
+    max-width: 70%;
+    min-height:10%;
+    padding-right: 100px;
+    float: left;
+}
+#homepage4{
+    height: 200px;
+    width: auto;
+    max-width: 70%;
+    min-height:10%;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    float: right;
+}
+#home4{
+    padding-left: 250px;
+}
+#homepage5{
+    height: 150px;
+    width: auto;
+    max-width: 70%;
+    min-height:10%;
+    padding-left: 100px;
+    float: right;
+
+}
+.navbar{
+    background-color: #BF7960 !important;
+
+}
+#passaggi{
+    background-color: #80BFB9;
+    border-radius: 5px 5px 5px 5px;
+    border:solid #5397A6;
+    font-size: 18px;
+    padding: 15px 15px 15px 15px;
+}
+#passaggi2{
+    background-color: #80BFB9;
+    border-radius: 5px 5px 5px 5px;
+    border:solid #5397A6;
+    font-size: 18px;
+    padding: 15px 15px 15px 15px;
+    margin: 16px 200px 16px 0px;
+    text-align: center;
+}
+footer{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.footer_link{
+    text-decoration: none;
+}
+#footer_content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem 3.5rem;
+}
+#footer_contacts h3{
+    margin-bottom: 0.75rem;
+}
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#footer_social_media .footer_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%
+}
+#footer_social_media .footer_link i{
+    font-size: 1.25rem;
+}
+#footer_social_media .footer_link:hover{
+    opacity: 0.8;
+}
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807)
+}
+#spotify{
+    background: #81b71a ;
+}
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+.list_link{
+    text-decoration: none;
+    color: #442414;
+}
+.footer_list .footer_link{
+    color: #442414;
+}
+.footer_list .footer_link:hover{
+    opacity: 0.8;
+}
+.footer_list .list_link:hover{
+    opacity: 0.8;
+}
+#footer_copyright{
+    font-size: 0.9rem;
+    padding: 1.25rem;
+    font-weight: 100;
+}
+#mappa{
+    padding-left: 325px;
+    padding-right: 325px;
+}
+#titolo_playlist{
+    padding: 15px;
+}
+.card1{
+    padding: 0px 100px 30px 100px;
+    display: inline-block;
+}
+.card2{
+    display: inline-block;
+    padding: 0px 100px 30px 0px;
+}
+.card3{
+    padding: 0px 100px 30px 0px;
+    display: inline-block;
+}
+#icone_home{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#card_homepage{
+    padding: 15px;
+}
+#warning{
+    height: 150px;
+    width: auto;
+    max-width: 70%;
+    min-height:10%;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    float: left;
+}
+#giardini{
+    height: 214px;
+    width: auto;
+}
+#strade{
+    height: 300px;
+    width: auto;
+}
+.documentazione{
+    height: 500px;
+    width: auto;
+    padding: 30px;
+}

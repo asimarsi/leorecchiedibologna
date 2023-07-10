@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>Le Orecchie di Bologna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5b3c9f4fb7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+  </head>
+  <body class="container-fluid">
+
+    <header class="flex">
+        <img id="logo" src="immagini/logo.png">
+        <h1>Le Orecchie di Bologna</h1>
+    </header>
+
+    <!-- Inizio Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mappa.html">Mappa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Playlist
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="piazze.html">Piazze</a></li>
+                <li><a class="dropdown-item" href="monumenti.html">Monumenti</a></li>
+                <li><a class="dropdown-item" href="strade.html">Strade</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h2>Abstract</h2>
+    <p>Le Orecchie di Bologna presenta due obiettivi principali:</p>
+    <ul>
+        <li>Raccontare Bologna attraverso le orecchie degli studenti, codividendo canzoni legate a un luogo spcifico della città.</li>
+        <li>La creazione di playlist tematiche per ogni luogo citato all'interno della mappa di Bologna presente nel sito.</li>
+    </ul>
+    <p>Il sito è indirizzato agli studenti che hanno voglia di raccontare la propria esperienza Bolognese attraverso la musica.<br>Inoltre, il profilo Spotify della pagina, permette un rapido accesso a tutte le playlist direttamente dal sito.</p>
+
+    <h2>Benchmarking</h2>
+    <ul>
+        <li><b>Obiettivi:</b>il tema centrale del sito è la musica, nella sua forma più sentimetnale ed emotiva, dato che ogni canzone all'interno del sito è potenzialemente legata a un ricordo personale dell'utente, cercando quindi di suscitare nostalgia e rimembranza.<br>é presente anche un'obiettivo secondario, ovvero permettere agli utenti di scoprire nuove canzoni e nuovi luoghi dI Bologna.</li>
+        <li><b>Target utente:</b>il sito è rivolto a tutti gli studenti che vivono o che hanno vissuto a Bologna.</li>
+        <li><b>Competitors:</b></li>
+    </ul>
+
+    <h2>Struttura e layout</h2>
+    <img src="immagini/Archittetura del sito.jpg" class="documentazione">
+
+    <section>
+        <div class="flex">
+          <img src="immagini/Homepage.jpg" class="documentazione">
+          <div>
+            <p>- In alto si trovano il logo ufficiale del sito e il titolo.<br>- Il menu di navigazione prevede tre voci, di una a tendina: home, mappa e playlist. La voce playlist apre il menu a tendina in cui si trovano altri tre voci: piazze, monumenti e strade; queste ultime rappresentano le macro categorie di luoghi in cui possono essere suddivise le canzoni.<br>-In questo riquadro si trova una breve introduzione al sito.<br>- Le tre icone rappresentano gli elementi chiave del sito, ovvero la mappa, i tag del luogo e le playlist (sotto si trova una piccola descrizione).<br>- L'elenco numerato (passaggi 1,2,3) elanca i passaggi per inviare la tua canzone. <br> - Nel footer si trovano i link ai social della pagina (instagram e spotify), un richiamo al menu di navigazione e la documentazione.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex">
+          <img src="immagini/mappa.jpg" class="documentazione">
+          <div>
+            <p>Al centro troviamo un tool di Google che permette di creare mappe personalizzate.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex">
+          <img src="immagini/playlist.jpg" class="documentazione">
+          <div>
+            <p>-La playlist generale si trova in alto ad ogni pagina delle macro- categorie e contiente tutte le canzoni che sono state dedicate a quella macro- categoria.<br>-Sotto si trovano i singoli luoghi con le loro specifiche palylist.</p>
+          </div>
+        </div>
+      </section>
+
+    <h2>Look and feel</h2>
+    <img src="immagini/Palette.png">
+    <p>Per la realizzazione del sito è stata usata la palette sovrastante, che richiama i colori caldi di Bologna. La maggior parte delle immaggini all'interno del sito sono state scattate da me stessa, per amplificare ancora di più lo scopo del sito di raccogleire esperienze di vita studentesca bolognese.</p>
+
+    <h2>Linguaggi e strumenti</h2>
+    <p>Per la realizzazione del sito sono partita utilizzando il programma Visual Studio Code; in particoalre ho utilizzato il linguaggio HTML per la creazione delle pagine e il linguaggio CSS per la grafica. Gli strumenti che ho utilizzato a supporto della progettazione sono stati:</p>
+    <ul>
+        <li>Google per la creazione del form, della mappa e per le statistiche di visualizzazione.</li>
+        <li>Spotify per la creazione e la condivisione delle playlist.</li>
+        <li>Instagram per pubblcizzare il sito e per condividere in modo più rapido il form.</li>
+    </ul>
+
+    <h2>Comunications strategy</h2>
+    <h3>Background</h3>
+    <p></p>
+    <h3>Obiettivi comunicativi</h3>
+    <p>L'obiettivo più importante per il progetto è sicuramente la condivisione della musica. Il sito, tramite una forma semi anonima (si richiede soltano il nome dell'utente, senza altri dati che potrebbero portare alla sua identità) cerca di incentivare l'invio di un ricordo musicale. In termini misurabili, gli obiettivi da raggiungere sono:</p>
+    <ul>
+        <li>15 risposte al form</li>
+        <li>50 visualizzazioni sul sito</li>
+        <li>30 followers sulla pagina Instagram</li>
+    </ul>
+    <h3>Target audience e messaggio</h3>
+    <p>Il sito si rivolge a un target tra i 19 anni e 40 anni; in particolare ai giovani in età universitaria che cercano altri canali di condivisione attraverso i quali trasmettere la propria epserienza. Anche se il sito è pensato per unire il mondo dell'università bolognese e della musica, è indirizzato anche a tutti quei giovani che a Bologna hanno solo passato qualche giorni o fatto l'esperienza di un cocnerto (target secodnario). Per raggiungere entrami i target sono stati utilizzati:</p>
+    <ul>
+        <li>Instagram(@leorecchiedibologna).</li>
+        <li>Messaggi broadcast su Whatapps.</li>
+    </ul>
+    <h3>Promozione</h3>
+    <p>Per la promozione del sito i mezzi utilizzati sono:</p>
+    <ul>
+        <li>Condivisione della pagina Instagram e messaggi Whatapps.</li>
+        <li>Passaparola.</li>
+    </ul>
+    <h3>Valutazione dei risultati</h3>
+
+    <!--Quì inizia il footer-->
+    <footer>
+        <div id="footer_content">
+          <div id="footer_contacts">
+            <h3 style="color: #44241a;">Social</h3>
+            <p style="color: #44241a;">Seguici su i nostri social per rimanere aggiornato su tutte le news.</p>
+  
+            <div id="footer_social_media">
+              <a href="https://instagram.com/leorecchiedibologna?igshid=OGQ5ZDc2ODk2ZA==" class="footer_link" id="instagram">
+                <i class="fa-brands fa-instagram" style="color: white;"></i>
+              </a>
+  
+              <a href="https://open.spotify.com/user/31xb25ui7nrlh2hsbt6tajpqyt6e?si=5bd68adaf77540ac" class="footer_link" id="spotify">
+                <i class="fa-brands fa-spotify" style="color: black;"></i>
+              </a>
+            </div>
+          </div>
+  
+          <ul class="footer_list">
+            <li>
+              <h3><a href="index.html" class="list_link">Home</a></h3>
+            </li>
+            <li>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzskpNr4seOO-3pCeWCj1WcXFIXXRCKBPgjPUqeXwX41jDxA/viewform?usp=sf_link" target="_blank" class="footer_link">Form</a>
+            </li>
+          </ul>
+  
+          <ul class="footer_list">
+            <li>
+              <h3><a href="playlist.html" class="list_link">Playlist</a></h3>
+            </li>
+            <li>
+              <a href="piazze.html" class="footer_link">Piazze</a>
+          </li>
+          <li>
+              <a href="monumenti.html" class="footer_link">Monumenti</a>
+          </li>
+          <li>
+              <a href="strade.html" class="footer_link">Strade</a>
+          </li>
+          </ul>
+  
+          <ul class="footer_list">
+            <li>
+              <h3><a href="documentazione.html" class="list_link">Documentazione</a></h3>
+            </li>
+          </ul>
+        </div>
+        <div id="footer_copyright" class="flex">
+          &#169
+          2023 all rights reservege
+        </div>
+      </footer>
+      
+    </body>
+  </html>

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>Le Orecchie di Bologna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5b3c9f4fb7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+  </head>
+  <body class="container-fluid">
+
+    <header class="flex">
+        <img id="logo" src="immagini/logo.png">
+        <h1>Le Orecchie di Bologna</h1>
+    </header>
+
+    <!-- Inizio Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mappa.html">Mappa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Playlist
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="piazze.html">Piazze</a></li>
+                <li><a class="dropdown-item" href="monumenti.html">Monumenti</a></li>
+                <li><a class="dropdown-item" href="strade.html">Strade</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flex" id="card_homepage">
+    <div class="card mb-3" style="max-width: 640px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="immagini/IMG_1159.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 class="card-title"><b>Come nasce l'idea</b></h2>
+            <p class="card-text">Le orecchie di Bologna nasce come un progetto per un esame universitario a tema musicale.</p>
+            <p class="card-text">Prende vita dall'idea di <b>unire</b> due mondi distanti, l'universtità e la musica, in un unico <b>luogo</b>.</p>
+            <p class="card-text">Rappresenta la <b>voglia di raccontare</b> e <b>condividere</b> la vita studentesca bolognese attraverso la musica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="flex" id="home3">
+      <h2><b>Cosa troverai all'interno del sito</b></h2>
+  </section>
+
+  <!--Quì inizia la griglia-->
+  <div class="container">
+    <div class="row">
+     <div class="col-4">
+        <i class="fa-solid fa-map fa-2xl" style="color: #44241a;" id="icone_home"></i>
+     <p>Una <b>mappa</b> della cità di Bologna, sulla quale verranno segnati i <b>luoghi</b> in cui qualcuno ha ascoltato una <b>canzone</b>.</p>
+    </div>
+    <div class="col-4">
+        <i class="fa-solid fa-location-dot fa-2xl" style="color: #44241a;" id="icone_home"></i>
+        <p>Questo <b>tag</b> segnala i luoghi in cui puoi trovare una nuova canzone o una playlist.</p>
+    </div>
+    <div class="col-4">
+        <i class="fa-solid fa-circle-play fa-2xl" style="color: #44241a;" id="icone_home"></i>
+        <p>Nella sezione <b>playlist</b> puoi trovare rapidamente tutte le canzoni dedicate ad ogni singolo luogo.</p>
+    </div>
+    </div>
+  </div>
+
+  <section class="flex">
+    <h2><b>Come funziona?</b></h2>
+  </section>
+  <section>
+    <div class="flex">
+      <img id="homepage3" src="immagini/undraw_compose_music_re_wpiw.svg">
+      <div>
+        <p id="passaggi">1. Invia il tuo ricordo bolognese tramite il <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzskpNr4seOO-3pCeWCj1WcXFIXXRCKBPgjPUqeXwX41jDxA/viewform?usp=sf_link" target="_blank">FORM</a>.</p>
+      </div>
+    </div>
+  </section>
+  <section class="flex">
+    <div>
+      <img id="homepage5" src="immagini/undraw_map_dark_re_36sy.svg">
+      <div>
+        <p id="passaggi2">2. Una volta ricevuta la tua compilazione, la <br>canzone comparirà sulla <a href="mappa.html">mappa</a>, segnalata dall'apposito tag.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="flex">
+      <img id="homepage4" src="immagini/undraw_imagination_re_i0xi.svg">
+      <div>
+        <p id="passaggi">3. Tutte le canzoni che si riferiscono al solito luogo verranno<br>inserite all'interno della playlist dedicata.</p>
+      </div>
+    </div>
+  </section>
+
+    <!--Quì inizia il footer-->
+    <footer>
+      <div id="footer_content">
+        <div id="footer_contacts">
+          <h3 style="color: #44241a;">Social</h3>
+          <p style="color: #44241a;">Seguici su i nostri social per rimanere aggiornato su tutte le news.</p>
+
+          <div id="footer_social_media">
+            <a href="https://instagram.com/leorecchiedibologna?igshid=OGQ5ZDc2ODk2ZA==" class="footer_link" id="instagram">
+              <i class="fa-brands fa-instagram" style="color: white;"></i>
+            </a>
+
+            <a href="https://open.spotify.com/user/31xb25ui7nrlh2hsbt6tajpqyt6e?si=5bd68adaf77540ac" class="footer_link" id="spotify">
+              <i class="fa-brands fa-spotify" style="color: black;"></i>
+            </a>
+          </div>
+        </div>
+
+        <ul class="footer_list">
+          <li>
+            <h3><a href="index.html" class="list_link">Home</a></h3>
+          </li>
+          <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzskpNr4seOO-3pCeWCj1WcXFIXXRCKBPgjPUqeXwX41jDxA/viewform?usp=sf_link" target="_blank" class="footer_link">Form</a>
+          </li>
+        </ul>
+
+        <ul class="footer_list">
+          <li>
+            <h3><a href="playlist.html" class="list_link">Playlist</a></h3>
+          </li>
+          <li>
+            <a href="piazze.html" class="footer_link">Piazze</a>
+        </li>
+        <li>
+            <a href="monumenti.html" class="footer_link">Monumenti</a>
+        </li>
+        <li>
+            <a href="strade.html" class="footer_link">Strade</a>
+        </li>
+        </ul>
+
+        <ul class="footer_list">
+          <li>
+            <h3><a href="documentazione.html" class="list_link">Documentazione</a></h3>
+          </li>
+        </ul>
+      </div>
+      <div id="footer_copyright" class="flex">
+        &#169
+        2023 all rights reservege
+      </div>
+    </footer>
+    
+  </body>
+</html>
